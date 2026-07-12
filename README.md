@@ -12,7 +12,6 @@ This template is built following the phased design outlined in [plan.md](plan.md
     *   Boilerplate structure setup under `app/` (APIs, core, models, schemas, services).
     *   Unified Pydantic `BaseSettings` parsing database connection URLs.
     *   SQLAlchemy & Alembic configuration tailored for both PostgreSQL and SQL Server (including `fast_executemany` optimizations).
-    *   Docker Compose configuration with Postgres and SQL Server instances for local testing.
     *   Health probe endpoints (`/health/liveness` and `/health/readiness`).
     *   `pytest` framework set up with async testing tools.
 *   **Phase 2: Telemetry & Observability**

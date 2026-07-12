@@ -2,6 +2,6 @@
     "project_name": "FastAPI",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
     "description": "FastAPI backend with AGAC auth and Maker-Checker logic.",
-    "author_name": "Anonymous_Developer",
+    "author_name": "IPTS Python Framework Team",
     "python_version": "3.14"
 }

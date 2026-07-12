@@ -1,0 +1,8 @@
+[project]
+name = "{{ cookiecutter.project_slug }}"
+description = "{{ cookiecutter.description }}"
+version = "0.1.0"
+requires-python = ">={{ cookiecutter.python_version }}"
+dependencies = [
+    "fastapi[standard]>=0.139.0",
+]
